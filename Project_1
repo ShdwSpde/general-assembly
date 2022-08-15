@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+  <title>Meet the Mets</title>
+  <style>
+    body {
+      text-align: center;
+      background: url("https://pbs.twimg.com/media/FXaN23CWAAgAEDv?format=jpg&name=large");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+    h1 {
+      font-size: 40px;
+      color: white;
+      background: black;
+      border: 5px dotted orange;
+    }
+    input {
+      border: 5px solid orange;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: orange;
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+ 
+  <img src="https://pbs.twimg.com/profile_images/1546128059207753740/Z_evnfzW_400x400.jpg">
+  <h1>Welcome to Mike's Mets Page</h1>
+  <input type="email" placeholder="Let's Play Ball">
+  <input type="submit">
+</body>
